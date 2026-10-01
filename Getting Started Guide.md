@@ -7,7 +7,8 @@
 ***
 
 ## **Overview**
-The Midterm Project **Password Auditor** evaluates password strength using complexity rules based on the NJ State SISM Policy which I have implemented.  
+The Midterm Project **Password Auditor** evaluates password strength using complexity rules based on the NJ State SISM Policy which I have implemented. 
+
 It generates an HTML report and runs entirely inside Docker so no additional Python installation required.
 
 ---
