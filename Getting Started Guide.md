@@ -95,7 +95,9 @@ python password_auditor.py
 ```
 
 Enter your username and password when prompted.  
+
 Your password input is **HIDDEN** for security.  
+
 The report will be saved to **`../scanner/output/Password_Audit_Report.html`**.
 
 ---
