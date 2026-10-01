@@ -87,18 +87,7 @@ The report will be saved as **`../scanner/output/Password_Audit_Report.html`**.
 
 ---
 
-## **4. Exit the Container** ❗
-#### Inside the container enter:
-
-```
-exit
-```
-
-or press **Ctrl + D**.
-
----
-
-## **5. View Your HTML Report**
+## **4. View Your HTML Report**
 #### Open:
 
 ```
@@ -114,6 +103,19 @@ The report includes:
 - Timestamp  (Updated on every run)
 
 The report updates on each run. Data for each run is put into a table.
+
+
+---
+
+## **5. Exit the Container** ❗
+#### Inside the container enter:
+
+```
+exit
+```
+
+or press **Ctrl + D**.
+
 
 ---
 
