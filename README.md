@@ -8,7 +8,7 @@
 
 ## Overview
 
-This project provides a command‑line password auditing utility designed specifically for system administrators and end users using Docker. 
+This Midterm Project provides a command‑line password auditing utility designed specifically for system administrators and end users using Docker. 
 The user enters a username and a password **(which is hidden)**, and the tool:
 
 1. Evaluates the password against strict complexity rules
