@@ -88,7 +88,7 @@ docker build --no-cache -t password-auditor .
 docker run -it --entrypoint bash -v ${PWD}/output:/output password-auditor
 ```
 
-3.2 - Run the auditor manually:
+3.2 - Run the auditor manually inside the container:
 
 ```
 python password_auditor.py
@@ -96,7 +96,7 @@ python password_auditor.py
 
 Enter your username and password when prompted.  
 Your password input is **HIDDEN** for security.  
-The report will be saved to `/output`.
+The report will be saved to **`../scanner/output/Password_Audit_Report.html`**.
 
 ---
 
