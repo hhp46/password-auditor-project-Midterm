@@ -6,7 +6,7 @@
 
 ---
 
-# Overview
+## Overview
 
 This project provides a command‑line password auditing utility designed specifically for system administrators and end users using Docker. 
 The user enters a username and a password **(which is hidden)**, and the tool:
@@ -18,7 +18,7 @@ The entire application runs inside a **Docker container**.
 
 ---
 
-# Project Structure
+## Project Structure
 
 ```
 password-auditor-project/
