@@ -57,7 +57,7 @@ A password is considered **valid** only if it meets all of the following complex
 # STEPS
 ---
 ## **1.  Navigate to the Project Directory**
-Open PowerShell:
+#### Open PowerShell:
 
 ```
 cd path/to/password-auditor-project-Midterm/scanner
@@ -69,7 +69,7 @@ Replace `path/to/` with your Windows path where you cloned the project.
 ---
 ## **2. Build the Docker Image**
 
-Build the image:
+#### Build the image:
 
 ```
 docker build -t password-auditor .
@@ -82,13 +82,13 @@ docker build --no-cache -t password-auditor .
 ---
 
 ## **3. Run the Auditor Inside the Container** ❗
-3.1 - Start a shell inside the container and mount the output directory:
+#### 3.1 - Start a shell inside the container and mount the output directory:
 
 ```
 docker run -it --entrypoint bash -v ${PWD}/output:/output password-auditor
 ```
 
-3.2 - Run the auditor manually inside the container:
+#### 3.2 - Run the auditor manually inside the container:
 
 ```
 python password_auditor.py
@@ -103,7 +103,7 @@ The report will be saved to **`../scanner/output/Password_Audit_Report.html`**.
 ---
 
 ## **4. Exit the Container** ❗
-Inside the container enter:
+#### Inside the container enter:
 
 ```
 exit
@@ -114,7 +114,7 @@ or press **Ctrl + D**.
 ---
 
 ## **5. View Your HTML Report**
-Open:
+#### Open:
 
 ```
 output/Password_Audit_Report.html
