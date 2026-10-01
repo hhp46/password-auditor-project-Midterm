@@ -146,14 +146,13 @@ docker build --no-cache -t password-auditor .
 ```
 
 ### **(5.4) Wrong working directory**
-Make sure you run Docker commands from:
+
+All commands must be executed from where the Dockerfile lives.  
+For this project repo, it's under `/scanner`.
 
 ```
 path/to/password-auditor-project/scanner
 ```
-
-All commands must be executed from where the Dockerfile lives.  
-For this project repo, it's under `/scanner`.
 
 ---
 
