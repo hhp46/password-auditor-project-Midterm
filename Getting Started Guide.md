@@ -74,7 +74,7 @@ Build the image:
 ```
 docker build -t password-auditor .
 ```
-Build the image using --no-cache: (Recommended to use -  Dont forget the . at the end of the command) ❗
+Build the image using --no-cache: (**`Recommended to use`** -  Don't forget the . at the end of the command) ❗
 ```
 docker build --no-cache -t password-auditor .
 ```
