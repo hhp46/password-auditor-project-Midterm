@@ -16,7 +16,8 @@ It generates an HTML report and runs entirely inside Docker so no additional Pyt
 ## **Requirements**
 - Docker Desktop (Windows/macOS/Linux)  
 - Terminal / PowerShell access  
-- Permission to mount volumes  
+- Permission to mount volumes
+- Correct working directory
 
 ---
 
@@ -31,14 +32,14 @@ password-auditor-project/
             └── Password_Audit_Report.html   (generated automatically)
 ```
 
-The output directory and the HTML report will be generated automatically once the Docker image is built and run successfully inside the container.
+❗ The /output directory and the HTML report will be generated automatically once the Docker image is built and run successfully inside the container.
 
 ---
 
 ## **Before You Begin ❗**
 Make sure **Docker Desktop is running** before you start.  
-If Docker Desktop is not running, the build and run commands will fail.
-* Run all commands from inside the /scanner folder in the project folder **`C:\Users\<USERNAME>\Desktop\password-auditor-project-Midterm\scanner`**
+If Docker Desktop is not running, the build and run commands will FAIL.
+* Run all commands from inside the /scanner folder in the project folder: **`C:\Users\<USERNAME>\Desktop\password-auditor-project-Midterm\scanner`**
 ---
 
 ## **Password Rules**
@@ -52,6 +53,8 @@ A password is considered **valid** only if it meets all of the following complex
 - Does **not** contain the username
 - No character repeated 3+ times consecutively  
 
+---
+# STEPS
 ---
 
 # **1. Build the Docker Image**
