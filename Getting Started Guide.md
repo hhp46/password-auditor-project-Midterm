@@ -128,13 +128,13 @@ The report updates on each run. Data for each run is put into a table.
 
 ## **5. Troubleshooting Tips**
 
-### **(5.1) Report not generating**
+#### **(5.1) Report not generating**
 Check the volume mount:
 
 ```
 -v ${PWD}/output:/output
 ```
-### **(5.2) Other commands to try if you get volume errors in PowerShell or CMD. Windows has different shells with different rules**
+#### **(5.2) Other commands to try if you get volume errors in PowerShell or CMD. Windows has different shells with different rules**
 
 ```
 docker run -it --entrypoint bash -v "${PWD}/output:/output" password-auditor
@@ -142,14 +142,14 @@ docker run -it --entrypoint bash -v "$($PWD.Path)/output:/output" password-audit
 docker run -it --entrypoint bash -v "%cd%/output:/output" password-auditor
 ```
 
-### **(5.3) Build running too fast (cached layers)**
+#### **(5.3) Build running too fast (cached layers)**
 Force rebuild:
 
 ```
 docker build --no-cache -t password-auditor .
 ```
 
-### **(5.4) Wrong working directory**
+#### **(5.4) Wrong working directory**
 
 All commands must be executed from where the Dockerfile lives.  
 For this project repo, it's under `/scanner`.
