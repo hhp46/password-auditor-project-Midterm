@@ -21,7 +21,7 @@ The user enters a username and a password **(which is hidden)**, and the tool:
 ## Project Structure
 
 ```
-password-auditor-project/
+password-auditor-project-Midterm/
 │
 └── scanner/
       ├── Dockerfile
