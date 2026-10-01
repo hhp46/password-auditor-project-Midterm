@@ -1,8 +1,8 @@
 # Password Auditor – IT610 Midterm Project  
 
 - **Author:** Harsh Patel
-- IT 610:851 – NJIT
-- **Project:** Docker-Based Password Auditor
+- **Course:** IT 610:851 – NJIT
+- **Project:** Docker-Based Password Auditor (Single Container)
 
 ---
 
