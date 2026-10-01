@@ -1,10 +1,10 @@
----
+***
 # **GETTING STARTED GUIDE – PASSWORD AUDITOR MIDTERM PROJECT**
 
 - **Author:** Harsh Patel
 - **Course:** IT610:851 – NJIT
 - **Project:** Docker-Based Password Auditor
----
+***
 
 ## **Overview**
 The Password Auditor evaluates password strength using complexity rules based on the NJ State SISM Policy which I have implemented.  
