@@ -37,7 +37,7 @@ The output directory and the HTML report will be generated automatically once th
 ## **Before You Begin ❗**
 Make sure **Docker Desktop is running** before you start.  
 If Docker Desktop is not running, the build and run commands will fail.
-
+* Run all commands from inside the /scanner folder in the project folder **`C:\Users\<USERNAME>\Desktop\password-auditor-project-Midterm\scanner`**
 ---
 
 ## **Password Rules**
