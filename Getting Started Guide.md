@@ -63,6 +63,7 @@ Open PowerShell:
 cd path/to/password-auditor-project-Midterm/scanner
 ```
 Replace `path/to/` with your Windows path where you cloned the project.
+❗ Make sure to be inside the /scanner folder. ❗
 
 ---
 ## **2. Build the Docker Image**
