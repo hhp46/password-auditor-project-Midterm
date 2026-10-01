@@ -33,7 +33,7 @@ password-auditor-project/
 
 ## HTML Report
 
-The report is generated at: /output/Password_Audit_Report.html
+The report is generated at: **`/output/Password_Audit_Report.html`** under the /scanner folder.
 
 
 Every time the docker is ran the results are added and updated to the HTML report as a table containing:
@@ -42,7 +42,6 @@ Every time the docker is ran the results are added and updated to the HTML repor
 - Hashed Password
 - Weak Password? (YES/NO)
 - Failed Requirements
-
   
 The HTML report is automatically generated after the docker image is built and ran successfully.
 
