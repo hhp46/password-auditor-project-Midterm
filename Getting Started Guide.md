@@ -24,7 +24,7 @@ It generates an HTML report and runs entirely inside Docker so no additional Pyt
 ## **Before You Begin ❗**
 Make sure **Docker Desktop is running** before you start.  
 If Docker Desktop is not running, the build and run commands will FAIL.
-* Run all commands from inside the /scanner folder in the project folder: **`C:\Users\<USERNAME>\Desktop\password-auditor-project-Midterm\scanner`**
+* Run all commands from inside the /scanner folder in the project folder **`Example Path:  C:\Users\<USERNAME>\Desktop\password-auditor-project-Midterm\scanner`**
 ---
 
 ## **Password Rules**
