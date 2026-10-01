@@ -37,11 +37,11 @@ The report is generated at: **`/output/Password_Audit_Report.html`** under the /
 
 Each time the scanner container is run, a new entry is added to the HTML table containing:
 
-Username
-Hashed Password (Argon2)
-Weak Password? (YES/NO)
-Failed Requirements
-Timestamp
+- Username
+- Hashed Password (Argon2)
+- Weak Password? (YES/NO)
+- Failed Requirements
+- Timestamp
   
 The HTML report is automatically generated after the docker image is built and ran successfully.
 
