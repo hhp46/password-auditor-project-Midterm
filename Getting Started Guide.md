@@ -21,21 +21,6 @@ It generates an HTML report and runs entirely inside Docker so no additional Pyt
 
 ---
 
-## **Project Structure**
-```
-password-auditor-project/
-│
-└── scanner/
-      ├── Dockerfile
-      ├── password_auditor.py
-      └── output/                            (generated automatically)
-            └── Password_Audit_Report.html   (generated automatically)
-```
-
-❗ The /output directory and the HTML report will be generated automatically once the Docker image is built and run successfully inside the container.
-
----
-
 ## **Before You Begin ❗**
 Make sure **Docker Desktop is running** before you start.  
 If Docker Desktop is not running, the build and run commands will FAIL.
