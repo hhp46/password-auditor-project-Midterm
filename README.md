@@ -31,7 +31,7 @@ password-auditor-project-Midterm/
 
 
 ```
- The /output directory and the HTML report will be generated automatically once the Docker image is built and run successfully inside the container.
+❗The /output directory and the HTML report will be generated automatically once the Docker image is built and run successfully inside the container.
 
 ---
 
