@@ -1,4 +1,4 @@
-
+---
 # **GETTING STARTED GUIDE – PASSWORD AUDITOR MIDTERM PROJECT**
 
 - **Author:** Harsh Patel
