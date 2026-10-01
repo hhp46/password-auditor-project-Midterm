@@ -33,7 +33,7 @@ password-auditor-project/
 
 ## HTML Report
 
-The report is generated at: **`/output/Password_Audit_Report.html`** under the /scanner folder.
+The report is generated at: **`../scanner/output/Password_Audit_Report.html.`**
 
 Each time the scanner container is run, a new entry is added to the HTML table containing:
 
