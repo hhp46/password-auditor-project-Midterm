@@ -67,13 +67,13 @@ docker build --no-cache -t password-auditor .
 ---
 
 ## **3. Run the Auditor Inside the Container** ❗
-#### 3.1 - Start a shell inside the container and mount the output directory:
+#### (3.1) Start a shell inside the container and mount the output directory:
 
 ```
 docker run -it --entrypoint bash -v ${PWD}/output:/output password-auditor
 ```
 
-#### 3.2 - Run the auditor manually inside the container:
+#### (3.2) Run the auditor manually inside the container:
 
 ```
 python password_auditor.py
