@@ -53,7 +53,7 @@ A password is considered **valid** only if it meets all of the following complex
 
 ---
 
-## **1. Build the Docker Image**
+# **1. Build the Docker Image**
 
 Navigate into the folder containing the Dockerfile (inside `/scanner`):
 
@@ -73,7 +73,7 @@ docker build --no-cache -t password-auditor .
 
 ---
 
-## **2. Run the Auditor Inside the Container** ❗
+# **2. Run the Auditor Inside the Container** ❗
 2.1 - Start a shell inside the container and mount the output directory:
 
 ```
@@ -92,7 +92,7 @@ The report will be saved to `/output`.
 
 ---
 
-## **3. Exit the Container** ❗
+# **3. Exit the Container** ❗
 Inside the container enter:
 
 ```
@@ -103,7 +103,7 @@ or press **Ctrl + D**.
 
 ---
 
-## **4. View Your HTML Report**
+# **4. View Your HTML Report**
 Open:
 
 ```
@@ -122,7 +122,7 @@ The report updates on each run. Data for each run is put into a table.
 
 ---
 
-## **Troubleshooting Tips**
+# **Troubleshooting Tips**
 
 ### **Report not generated?**
 Check the volume mount:
