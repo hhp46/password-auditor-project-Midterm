@@ -11,10 +11,10 @@
 This project provides a command‑line password auditing utility designed specifically for system administrators and end users using Docker. 
 The user enters a username and a password **(which is hidden)**, and the tool:
 
-- Evaluates the password against strict complexity rules
-- Generates a HTML report to review the audit
+1. Evaluates the password against strict complexity rules
+2. Generates a HTML report to review the audit
   
-The entire application runs inside a **Docker container**.
+- The entire application runs inside a **Docker container**.
 
 ---
 
