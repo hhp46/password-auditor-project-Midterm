@@ -35,13 +35,13 @@ password-auditor-project/
 
 The report is generated at: **`/output/Password_Audit_Report.html`** under the /scanner folder.
 
+Each time the scanner container is run, a new entry is added to the HTML table containing:
 
-Every time the docker is ran the results are added and updated to the HTML report as a table containing:
-
-- Username
-- Hashed Password
-- Weak Password? (YES/NO)
-- Failed Requirements
+Username
+Hashed Password (Argon2)
+Weak Password? (YES/NO)
+Failed Requirements
+Timestamp
   
 The HTML report is automatically generated after the docker image is built and ran successfully.
 
