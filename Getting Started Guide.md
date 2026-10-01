@@ -56,14 +56,16 @@ A password is considered **valid** only if it meets all of the following complex
 ---
 # STEPS
 ---
-
-## **1. Build the Docker Image**
-
-Navigate into the folder containing the Dockerfile (inside `/scanner`):
+## **1.  Navigate to the Project Directory**
+Open PowerShell:
 
 ```
-cd path/to/password-auditor-project/scanner
+cd path/to/password-auditor-project-Midterm/scanner
 ```
+Replace `path/to/` with your Windows path where you cloned the project.
+
+---
+## **2. Build the Docker Image**
 
 Build the image:
 
@@ -77,14 +79,14 @@ docker build --no-cache -t password-auditor .
 
 ---
 
-## **2. Run the Auditor Inside the Container** ❗
-2.1 - Start a shell inside the container and mount the output directory:
+## **3. Run the Auditor Inside the Container** ❗
+3.1 - Start a shell inside the container and mount the output directory:
 
 ```
 docker run -it --entrypoint bash -v ${PWD}/output:/output password-auditor
 ```
 
-2.2 - Run the auditor manually:
+3.2 - Run the auditor manually:
 
 ```
 python password_auditor.py
@@ -96,7 +98,7 @@ The report will be saved to `/output`.
 
 ---
 
-## **3. Exit the Container** ❗
+## **4. Exit the Container** ❗
 Inside the container enter:
 
 ```
@@ -107,7 +109,7 @@ or press **Ctrl + D**.
 
 ---
 
-## **4. View Your HTML Report**
+## **5. View Your HTML Report**
 Open:
 
 ```
@@ -126,15 +128,15 @@ The report updates on each run. Data for each run is put into a table.
 
 ---
 
-## **5. Troubleshooting Tips**
+## **6. Troubleshooting Tips**
 
-#### **(5.1) Report not generating**
+#### **(6.1) Report not generating**
 Check the volume mount:
 
 ```
 -v ${PWD}/output:/output
 ```
-#### **(5.2) Other commands to try if you get volume errors in PowerShell or CMD. Windows has different shells with different rules**
+#### **(6.2) Other commands to try if you get volume errors in PowerShell or CMD. Windows has different shells with different rules**
 
 ```
 docker run -it --entrypoint bash -v "${PWD}/output:/output" password-auditor
@@ -142,14 +144,14 @@ docker run -it --entrypoint bash -v "$($PWD.Path)/output:/output" password-audit
 docker run -it --entrypoint bash -v "%cd%/output:/output" password-auditor
 ```
 
-#### **(5.3) Build running too fast (cached layers)**
+#### **(6.3) Build running too fast (cached layers)**
 Force rebuild:
 
 ```
 docker build --no-cache -t password-auditor .
 ```
 
-#### **(5.4) Wrong working directory**
+#### **(6.4) Wrong working directory**
 
 All commands must be executed from where the Dockerfile lives.  
 For this project repo, it's under `/scanner`.
