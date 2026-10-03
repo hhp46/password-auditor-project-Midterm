@@ -18,6 +18,7 @@ It generates an HTML report and runs entirely inside Docker so no additional Pyt
 - Terminal / PowerShell access  
 - Permission to mount volumes
 - Correct working directory
+- Git clone this project repo
 
 ---
 
