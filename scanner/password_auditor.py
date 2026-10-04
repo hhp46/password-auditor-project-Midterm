@@ -6,7 +6,7 @@ from getpass import getpass
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
-REPORT_PATH = "/output/Password_Audit_Report.html"
+REPORT_PATH = "../scanner/output/Password_Audit_Report.html"
 ph = PasswordHasher()
 
 
