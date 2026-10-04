@@ -92,7 +92,7 @@ The report will be saved as **`../scanner/output/Password_Audit_Report.html`**.
 #### Open:
 
 ```
-output/Password_Audit_Report.html
+../scanner/output/Password_Audit_Report.html
 ```
 
 The report includes:
