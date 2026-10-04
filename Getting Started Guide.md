@@ -167,3 +167,9 @@ path/to/password-auditor-project/scanner
 Use the Getting Started Guide.md file to walkthrough the project. 
 
 ---
+## **Author**
+
+**Harsh Patel**  
+IT 610:851 – NJIT
+
+---
