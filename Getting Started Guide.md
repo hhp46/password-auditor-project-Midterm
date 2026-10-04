@@ -159,4 +159,11 @@ path/to/password-auditor-project/scanner
 - Store reports securely  
 - Address weak passwords promptly  
 - Archive reports regularly  
-- Never share hashed passwords publicly  
+- Never share hashed passwords publicly
+
+---
+
+## **Note:** 
+Use the Getting Started Guide.md file to walkthrough the project. 
+
+---
