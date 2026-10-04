@@ -162,14 +162,3 @@ path/to/password-auditor-project/scanner
 - Never share hashed passwords publicly
 
 ---
-
-## **Note:** 
-Use the Getting Started Guide.md file to walkthrough the project. 
-
----
-## **Author**
-
-**Harsh Patel**  
-IT 610:851 – NJIT
-
----
