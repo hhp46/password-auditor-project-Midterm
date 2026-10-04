@@ -116,6 +116,7 @@ exit
 ```
 
 or press **Ctrl + D**.
+
 Then in the terminal enter the command `docker ps` and you should notice no containers are running.
 
 ---
