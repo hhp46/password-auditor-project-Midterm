@@ -53,7 +53,7 @@ The HTML report is automatically generated after the docker image is built and r
 
 ---
 
-## ** ❗ Note:** 
+## **❗ Note:** 
 Use the Getting Started Guide.md file to walkthrough the project. 
 
 ---
