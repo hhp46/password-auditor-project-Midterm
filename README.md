@@ -52,6 +52,12 @@ Each time the scanner container is run, a new entry is added to the HTML table c
 The HTML report is automatically generated after the docker image is built and ran successfully.
 
 ---
+
+## ** ❗ Note:** 
+Use the Getting Started Guide.md file to walkthrough the project. 
+
+---
+
 ## Author  
 **Harsh Patel**  
 IT610:851 – NJIT
