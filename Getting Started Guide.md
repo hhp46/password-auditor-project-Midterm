@@ -89,7 +89,7 @@ The report will be saved as **`../scanner/output/Password_Audit_Report.html`**.
 ---
 
 ## **4. View Your HTML Report**
-#### Open:
+#### Open your project folder to view the report at:
 
 ```
 ../scanner/output/Password_Audit_Report.html
