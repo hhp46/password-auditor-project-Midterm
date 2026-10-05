@@ -4,12 +4,12 @@ FROM python:3.11-slim
 #Set working directory
 WORKDIR /scanner
 
-# Copy Python script from the project folder to local 
+# Copy Python script locally from the project folder 
 COPY password_auditor.py /scanner/password_auditor.py
 
-#Installs Python package needed for the script (HASHING)
+#Installs Python package which is needed for the script (PASSWORD HASHING)
 RUN pip install argon2-cffi
 
-#Set default program that runs when the container starts
+#Default program set that runs when the container starts
 ENTRYPOINT ["python", "/scanner/password_auditor.py"]
 
