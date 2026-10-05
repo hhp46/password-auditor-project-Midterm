@@ -80,6 +80,7 @@ def HTML_REPORT(username, hashed_password, requirement):
         with open(REPORT_PATH, "w") as f:
             f.write(f"""
 
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -169,6 +170,10 @@ def HTML_REPORT(username, hashed_password, requirement):
 </html>
             """)
 
+# -----------------------------
+# Message on screen after audit is complete
+# -----------------------------
+        
         print(f"\nNew report created at: {REPORT_PATH} which is under the scanner folder.")
         return
 
@@ -206,7 +211,11 @@ def main():
     hashed = ph.hash(password)
 
     HTML_REPORT(username, hashed, requirement)
-
+    
+# -----------------------------
+# Message on screen after audit is complete and report is generated
+# -----------------------------
+    
     if not strong:
         print("\nPassword is WEAK and must meet the complexity requirements. It is logged in the report.")
     else:
