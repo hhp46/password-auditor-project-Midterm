@@ -169,7 +169,7 @@ def HTML_REPORT(username, hashed_password, requirement):
 </html>
             """)
 
-        print(f"\nNew report created: {REPORT_PATH}")
+        print(f"\nNew report created at: {REPORT_PATH} which is under the scanner folder.")
         return
 
     # If report exists, update timestamp and append new row
@@ -191,7 +191,7 @@ def HTML_REPORT(username, hashed_password, requirement):
     with open(REPORT_PATH, "w") as f:
         f.write(content)
 
-    print(f"\nReport updated at: {REPORT_PATH}")
+    print(f"\nReport updated at: {REPORT_PATH} which is under the scanner folder.")
 
 
 # -----------------------------------------
