@@ -153,14 +153,4 @@ For this project repo, it's under `/scanner`.
 ```
 path/to/password-auditor-project/scanner
 ```
-
----
-
-## **Best Practices**
-- Use during onboarding or periodic password audits  
-- Store reports securely  
-- Address weak passwords promptly  
-- Archive reports regularly  
-- Never share hashed passwords publicly
-
 ---
