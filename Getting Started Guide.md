@@ -99,7 +99,7 @@ The report will be saved as **`../scanner/output/Password_Audit_Report.html`**.
 The report includes:
 
 - Username  
-- Argon2 hashed password  
+- Hashed password  
 - Weak/Strong status  
 - Failed rules  
 - Timestamp  (Updated on every run)
