@@ -73,6 +73,7 @@ docker build --no-cache -t password-auditor .
 ```
 docker run -it --entrypoint bash -v ${PWD}/output:/output password-auditor
 ```
+Now you should inside a container. Follow next steps below!
 
 #### (3.2) Run the auditor manually inside the container:
 
