@@ -29,24 +29,28 @@ def check_password_rules(username, password):
     if not (8 <= len(password) <= 14):
         failures.append("Password must be between 8 and 14 characters long")
 
-    # uppercase / lowercase / digit / special
+    # uppercase letter
+    
     if not any(c.isupper() for c in password):
         failures.append("Password must contain at least one uppercase letter")
-
+   
+    # lowercase
     if not any(c.islower() for c in password):
         failures.append("Password must contain at least one lowercase letter")
-
+   
+    # digit
     if not any(c.isdigit() for c in password):
         failures.append("Password must contain at least one numeric digit")
-
+    
+    # special character
     if not re.search(r"[^A-Za-z0-9]", password):
         failures.append("Password must contain at least one special character")
 
-    # username inside password
+    # username in password
     if user_lower in pw_lower:
         failures.append("Password cannot contain the username")
 
-    # repeated characters (3+)
+    # repeated characters
     if re.search(r"(.)\1\1", password):
         failures.append("Password cannot contain a character repeated more than twice in a row")
 
