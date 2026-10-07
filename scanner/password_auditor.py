@@ -56,7 +56,7 @@ def check_password_rules(username, password):
 # ---------------------------------------------------------
 # HTML for the table row
 # ---------------------------------------------------------
-def render_row(username, hashed_pw, failures):
+def create_row(username, hashed_pw, failures):
     weak_flag = "YES" if failures else "NO"
     color = "#e74c3c" if failures else "#2ecc71"  # red or green badge
     failure_text = "<br>".join(failures) if failures else "None"
