@@ -18,8 +18,8 @@ ph = PasswordHasher()
 # -----------------------------
 def check_password_rules(username, password):
     """
-    Evaluate password complexity based on a few basic rules.
-    Returns (is_strong, list_of_failed_requirements)
+    Evaluate password complexity based NJ SISM rules.
+    Returns password is Strong/Weak
     """
     failures = []
     pw_lower = password.lower()
