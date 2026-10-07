@@ -18,8 +18,8 @@ ph = PasswordHasher()
 # -----------------------------
 def check_password_rules(username, password):
     """
-    Evaluate password complexity based NJ SISM rules.
-    Returns password is Strong/Weak
+    Evaluate password complexity based on a few basic rules.
+    Returns (is_strong, list_of_failed_requirements) 
     """
     failures = []
     pw_lower = password.lower()
@@ -112,7 +112,6 @@ def HTML_REPORT(username, hashed_pw, failures):
     h1 {{
         text-align: center;
         margin-bottom: 0px;
-        font-size: 32px;
         color: #2c3e50;
     }}
 
@@ -138,7 +137,6 @@ def HTML_REPORT(username, hashed_pw, failures):
         color: white;
         padding: 12px;
         text-align: center;
-        font-size: 16px;
         border-right: 3px solid #1f6fa5;
     }}
 
@@ -147,7 +145,6 @@ def HTML_REPORT(username, hashed_pw, failures):
         border-bottom: 1px solid #e0e0e0;
         border-right: 3px solid #d1d1d1;
         vertical-align: top;
-        font-size: 15px;
     }}
 
     td:last-child,
