@@ -214,6 +214,15 @@ def main():
     username = input("Enter your username: ").strip()
     password = getpass("Enter your password (HIDDEN): ").strip()
 
+    # Input cant be empty
+    if not username:
+        print("Username cannot be empty.")
+        return
+    
+    if not password:
+        print("Password cannot be empty.")
+        return
+        
     strong, failures = check_password_rules(username, password)
     hashed_pw = ph.hash(password)
 
@@ -222,7 +231,6 @@ def main():
 # -----------------------------
 # Message on screen after audit is complete and report is generated
 # -----------------------------
-    
     if strong:
         print("\nPassword is STRONG and meets the complexity requirements. Details logged in the report.")
     else:
