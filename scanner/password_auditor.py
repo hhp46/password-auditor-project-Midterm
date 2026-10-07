@@ -216,11 +216,11 @@ def main():
 
     # Input cant be empty
     if not username:
-        print("Username cannot be empty.")
+        print("Username cannot be empty. Run 'python password_auditor.py' again.")
         return
     
     if not password:
-        print("Password cannot be empty.")
+        print("Password cannot be empty. Run 'python password_auditor.py' again.")
         return
         
     strong, failures = check_password_rules(username, password)
