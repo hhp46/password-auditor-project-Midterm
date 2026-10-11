@@ -11,11 +11,10 @@
 This Midterm Project (using Docker) provides a command‑line password auditing utility designed specifically for system administrators and end users. 
 The user enters a username and a password **(which is hidden)**, which they want to see if its valid/complex, and the tool:
 
-1. Evaluates the password against strict complexity rules
+1. Evaluates the password against strict complexity rules based on NJ State SISM
 2. Generates a HTML report to review the audit
   
-- The entire application runs inside a **Docker container**.
-- It generates an HTML report and runs entirely inside Docker so no additional Python installation required.
+- The entire application runs inside a **Docker container** so no additional Python installation required.
 
 ---
 
