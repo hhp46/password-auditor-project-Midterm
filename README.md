@@ -15,6 +15,7 @@ The user enters a username and a password **(which is hidden)**, which they want
 2. Generates a HTML report to review the audit
   
 - The entire application runs inside a **Docker container**.
+- It generates an HTML report and runs entirely inside Docker so no additional Python installation required.
 
 ---
 
