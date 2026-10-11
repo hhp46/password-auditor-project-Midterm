@@ -1,10 +1,6 @@
 ***
 # **GETTING STARTED GUIDE – PASSWORD AUDITOR MIDTERM PROJECT**
 
-- **Author:** Harsh Patel
-- **Course:** IT610:851 – NJIT
-- **Project:** Docker-Based Password Auditor
-***
 
 ## **Requirements**
 - Docker Desktop (Windows/macOS/Linux)  
